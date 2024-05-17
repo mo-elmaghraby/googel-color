@@ -1,7 +1,7 @@
 .googel-colors {
     position: relative;
-    width: 350px;
-    height: 100px;
+    width: 300px;
+    height: 76px;
     border-radius: 50px;
     margin: 150px auto;
     border: 1px solid transparent;
@@ -11,16 +11,15 @@
 .googel-colors::before {
     content: "";
     position: absolute;
-    top: -100%;
-    left: -100%;
+    top: -110px;
+    left: 0px;
+    width: 300px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300%;
-    height: 370%;
-    background-image: repeating-conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
-    animation: rote 3s infinite linear;
-    -webkit-animation: rote 3s infinite 2s forwards linear;
+    background-image: repeating-conic-gradient(red 0deg, red 45deg, yellow 45deg, yellow 90deg, green 90deg, green 135deg, blue 135deg, blue 180deg, red 180deg, red 225deg, yellow 225deg, yellow 270deg, green 270deg, green 315deg, blue 315deg, blue 360deg);
+    animation: rote 3s infinite 2s forwards linear;
 }
 .googel-colors::after {
     content: "Elzer Web School - Googel Animation";
@@ -32,7 +31,7 @@
     justify-content: center;
     align-items: center;
     width: calc(100% - 6px);
-    height: calc(100% - 6px);
+    height: 70px;
     background-color: #eee;
 }
 
